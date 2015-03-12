@@ -509,10 +509,10 @@
 <project name="HtcLegacy/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.0-caf-legacy" remote="github"/>
 
 <!-- Device Tree, Kernel and Vendor -->
-<project path="device/lge/msm7x27a-common" name="CyanogenLGE/android_device_lge_msm7x27a-common" revision="cm-12.0" remote="github"/>
+<project path="device/lge/msm7x27a-common" name="CyanogenLGE/android_device_lge_msm7x27a-common" revision="lp5.0" remote="github"/>
 <project path="device/lge/e610" name="CyanogenLGE/android_device_lge_e610" revision="lp5.0" remote="github"/>
 <project path="device/lge/p700" name="CyanogenLGE/android_device_lge_p700" revision="lp5.0" remote="github"/>
-<project path="kernel/lge/msm7x27a-common" name="CyanogenLGE/lge-kernel-lproj" revision="android-msm-3.4-lp" remote="github"/>
+<project path="kernel/lge/msm7x27a-common" name="Unleashed-rom/lge-kernel-lproj" revision="android-msm-3.4-lp" remote="github"/>
 <project path="vendor/lge" name="CyanogenLGE/proprietary_vendor_lge" revision="cm-12.0" remote="github"/>
 
 <!-- kk kernel toolchain -->
