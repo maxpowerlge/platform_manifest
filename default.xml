@@ -16,7 +16,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
 <project path="art" name="SlimRoms/android_art" remote="github" revision="lp5.0"  />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="lp5.0" />
+  <project path="bionic" name="CyanogenLGE/android_bionic" revision="cm-12.0" remote="github"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -142,7 +142,7 @@
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/icu" name="SlimRoms/android_external_icu" remote="github" revision="lp5.0" />
+  <project path="external/icu" name="CyanogenLGE/android_external_icu" revision="cm-12.0" remote="github"/>
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
@@ -264,7 +264,7 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="lp5.0-caf" />
+  <project path="external/wpa_supplicant_8" name="CyanogenLGE/android_external_wpa_supplicant_8" revision="cm-12.0" remote="github"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -313,7 +313,7 @@
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="lp5.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="lp5.0-caf" />
-  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="lp5.0-caf" />
+  <project path="hardware/libhardware_legacy" name="CyanogenLGE/android_hardware_libhardware_legacy" revision="cm-12.0" remote="github"/>
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="lp5.0-caf" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="lp5.0" />
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="lp5.0-caf" />
@@ -438,7 +438,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="lp5.0-caf" />
+  <project path="system/core" name="CyanogenLGE/android_system_core" revision="cm-12.0" remote="github"/>
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="lp5.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="lp5.0-caf" />
